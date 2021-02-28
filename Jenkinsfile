@@ -11,7 +11,7 @@ pipeline
     {
       steps
       {
-        sh 'mvn package'
+        bat 'mvn package'
       }
     }
   } 
